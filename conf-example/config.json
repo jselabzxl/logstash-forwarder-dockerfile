@@ -1,0 +1,15 @@
+{
+  "network": {
+    "servers": [ "219.224.135.91:5043" ],
+    "ssl certificate": "/opt/certs/logstash-forwarder.crt",
+    "ssl key": "/opt/certs/logstash-forwarder.key",
+    "ssl ca": "/opt/certs/logstash-forwarder.crt",
+    "timeout": 15
+  },
+  "files": [
+    {
+      "paths": [ "/tmp/feeds/*.log" ],
+      "fields": { "type": "scrapy" }
+    }
+  ]
+}
