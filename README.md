@@ -33,3 +33,4 @@ Volumes:
     /opt/conf  - Configuration folder with config.json
     /opt/certs - Certs folder with logstash-forwarder.crt and logstash-forwarder.key (used to start logstash)
 
+注：logstash-forwarder_linux_amd64来源于https://www.elastic.co/downloads/logstash
